@@ -9,6 +9,8 @@ public class Main {
         for (int numbers : array) {
             System.out.print(numbers + " ");
         }
+        System.out.println();
+
 
         int[] arr = {
                 9,
