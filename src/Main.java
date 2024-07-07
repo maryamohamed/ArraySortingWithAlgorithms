@@ -25,8 +25,8 @@ public class Main {
                 3,
                 1,
                 6
-        }; 
-        
+        };
+
         MergeSort mergeSort = new MergeSort();
         int[] array = {5, 8, 6, 9, 3, 1, 7};
         mergeSort.sort(array);
@@ -39,7 +39,7 @@ public class Main {
 
     private static void printArray(int[] arr) {
 
-        for (int num: arr) {
+        for (int num : arr) {
             System.out.print(num + " ");
         }
         System.out.println();
